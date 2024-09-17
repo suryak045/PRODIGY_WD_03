@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f; /* Dark navy blue background */
+}
+
+.stopwatch-container {
+    text-align: center;
+    background-color: #292e49; /* Deep purple-blue gradient */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 500px;
+    color: #ffffff; /* White text color */
+}
+
+.display {
+    font-size: 64px;
+    margin-bottom: 30px;
+    color: #f5f5f5; /* Slightly off-white for better readability */
+}
+
+.buttons button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#startStopBtn {
+    background-color: #4caf50; /* Green button */
+    color: white;
+}
+
+#startStopBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#resetBtn {
+    background-color: #e53935; /* Red button */
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+#lapBtn {
+    background-color: #1e88e5; /* Blue button */
+    color: white;
+}
+
+#lapBtn:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#laps li {
+    background-color: #41436a; /* Lighter purple-blue */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #e0e0e0; /* Light gray text for lap times */
+}
